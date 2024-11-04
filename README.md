@@ -39,9 +39,7 @@ The workarena task was for the agent to filter the table based on certain column
 
 Once everything is setup, clicking enter will parse the whole page. 
 You can recognize it worked after a second because a new AXT file will pop up in the results/folder.
-In the HTML you can see that elements have received a new attribute: "data-twin-unique-id". 
-If this is "*", an element is considered not interactable. 
-We mark every interactable element as "clickable", "selectable" or "typable". 
+If you update the page, clicking enter will parse it again and create an AXT in the results folder.
 
 
 ## Information related to our agent
@@ -52,11 +50,21 @@ A clickable button is marked as "clickable-element", for example.
 This is to limit the amount of options the agent chooses from, increasing performance. 
 this marking is done based on a bunch of factors. 
 Among them are the HTML tags, attributes and event listeners. 
+This won't be visible in this assignment! 
+We can't share this code, so this is the marking that comes with browsergym itself.
 
 An example action could be:
 click("clickable-element-400")
 
+Although this technique has proven very effective, there is also a lot of work involved in it still. 
+This is why it's important to have someone who has a good understanding/intuition about the frontend.
+
 ## Questions 
+
+Read the questions below. 
+They are about things we encounter daily in the context of the AXT.
+Try to be clear but stay concise. 
+Play around with the parsing and have a good look at the resulting AXT's from the html.
 
 1. In the task there is a "show/hide" filter button, once you click it, some dropdowns will appear. After clicking on the dropdown, the agent often got stuck. 
 What could be the problem? How did you approach debugging it? Do you have an idea how to solve it?
