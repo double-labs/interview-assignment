@@ -41,24 +41,6 @@ Once everything is setup, clicking enter will parse the whole page.
 You can recognize it worked after a second because a new AXT file will pop up in the results/folder.
 If you update the page, clicking enter will parse it again and create an AXT in the results folder.
 
-
-## Information related to our agent
-
-Our agent gets a bunch of input to make decisions, but the main one it relies on is the Accessibility tree (AXT). 
-We augment the accessibility tree to mark interactive elements.
-A clickable button is marked as "clickable-element", for example.
-This is to limit the amount of options the agent chooses from, increasing performance. 
-this marking is done based on a bunch of factors. 
-Among them are the HTML tags, attributes and event listeners. 
-This won't be visible in this assignment! 
-We can't share this code, so this is the marking that comes with browsergym itself.
-
-An example action could be:
-click("clickable-element-400")
-
-Although this technique has proven very effective, there is also a lot of work involved in it still. 
-This is why it's important to have someone who has a good understanding/intuition about the frontend.
-
 ## Questions 
 
 Read the questions below. 
