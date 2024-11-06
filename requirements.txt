@@ -1,2 +1,2 @@
--e twin-browsergym/browsergym
+-e Browsergym/browsergym
 loguru

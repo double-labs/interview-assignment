@@ -48,7 +48,7 @@ They are about things we encounter daily in the context of the AXT.
 Try to be clear but stay concise. 
 Play around with the parsing and have a good look at the resulting AXT's from the html.
 
-1. In the task there is a "show/hide" filter button, once you click it, some dropdowns will appear. After clicking on the dropdown, the agent often got stuck. 
+1. In the task there is a "show/hide" filter button, once you click it, some dropdowns will appear. After clicking on the dropdown, the agent often got stuck (a screenshot is added to show the situation you are looking for). 
 What could be the problem? How did you approach debugging it? Do you have an idea how to solve it?
 
 2. A big problem we are facing with this task, is the fact that the AXT is not very clear for the agent. 
